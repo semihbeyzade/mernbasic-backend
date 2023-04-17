@@ -4,4 +4,6 @@
 - x set up Git
 	- x ignore node_modules
 	- x put online for others
-- .. test api with extension REST Client
+- x test api with extension REST Client
+	- x test the / route
+
