@@ -6,4 +6,5 @@
 	- x put online for others
 - x test api with extension REST Client
 	- x test the / route
-
+- .. serve a JSON file of employees
+	- .. http://localhost:3333/employees
