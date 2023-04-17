@@ -16,5 +16,13 @@
 	- x react router
 	- x useContext
 	- x replace Info page with Employees page
-- .. in appContext, remove jobs/skills and fetch employees from backend
-- display employees
+- x in appContext, remove jobs/skills and fetch employees from backend
+	- x import employees as:
+		- id
+		- firstName
+		- lastName
+		- title
+	- x with axios, fetch employees
+- x display employees
+
+- .. remap raw employee data from backend into an array of IEmployees
