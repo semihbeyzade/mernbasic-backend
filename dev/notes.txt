@@ -1,7 +1,7 @@
 - x test the api with browser
 - x replace node with nodemon
 - x make an npm script to start the backend
-- .. set up Git
-	- .. ignore node_modules
-	- put online for others
-- test api with extension REST Client
+- x set up Git
+	- x ignore node_modules
+	- x put online for others
+- .. test api with extension REST Client
