@@ -1,3 +1,4 @@
+import fs from 'fs';
 import express from 'express';
 
 const app = express();
@@ -8,7 +9,9 @@ app.get('/', (req, res) => {
 });
 
 app.get('/employees', (req, res) => {
-	res.send('test: employees')
+	const rawEmployees = fs.readFileSync('./src/data/employees.json','utf8');
+	const employees = JSON.parse(rawEmployees);
+	res.send(employees)
 });
 
 app.listen(port, () => {
