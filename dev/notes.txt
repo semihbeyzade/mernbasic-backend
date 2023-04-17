@@ -6,5 +6,15 @@
 	- x put online for others
 - x test api with extension REST Client
 	- x test the / route
-- .. serve a JSON file of employees
-	- .. http://localhost:3333/employees
+- x serve a JSON file of employees
+	- x http://localhost:3333/employees
+
+- x create a react site
+	- x use template: react router
+- x understand the site
+- .. minimize site for our purposes
+	- x react router
+	- x useContext
+	- x replace Info page with Employees page
+- .. in appContext, remove jobs/skills and fetch employees from backend
+- display employees
